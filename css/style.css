@@ -531,4 +531,59 @@ color: #f4f4fd;
 }
 .footer-holder {
     margin-right: 120px;
+    margin-left: 156px;
+}
+.email-input-footer{
+    display: inline-block;
+    width: 458px;
+    height: 80px;
+margin-left: 80px;
+
+}
+.subscribe p{
+    font: 500; 
+    font-size: 16px ;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.email-bg{
+    display: flex;
+}
+  
+.input-email{
+    font: 400;
+    font-size: 12px;
+    line-height: 2 ;
+        letter-spacing: 0.04em;
+        color: #fff; 
+                margin-top: 16px;
+                border: 1px solid #fff;
+                    border-radius: 4px;
+                    width: 264px;
+                    height: 40px;
+                    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);                  
+                  background-color: #2e2f42;
+                  margin-right: 29px;
+                  align-self: self-start;
+       }
+       .input-email::placeholder{
+        color: #fff;
+       }
+.button-subscribe {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
+        border-radius: 4px;
+            padding: 8px 24px;
+            width: 165px;
+            height: 40px;
+            background: #4d5ae5;
+            margin-top: auto;
+}
+
+.icon-icon-send{
+    fill: #fff;
 }
