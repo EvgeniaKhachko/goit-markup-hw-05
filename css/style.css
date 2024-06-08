@@ -515,7 +515,7 @@ color: #f4f4fd;
 .footer-content {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+   
 }
 .foot-media {
     font-weight: 500;
@@ -531,12 +531,10 @@ color: #f4f4fd;
 }
 .footer-holder {
     margin-right: 120px;
-    margin-left: 156px;
+
 }
 .email-input-footer{
-    display: inline-block;
-    width: 458px;
-    height: 80px;
+ 
 margin-left: 80px;
 
 }
@@ -566,14 +564,14 @@ p.subscribe{
     line-height: 2 ;
         letter-spacing: 0.04em;
         color: #fff; 
-                margin-top: 16px;
+                
                 border: 1px solid #fff;
                     border-radius: 4px;
                     width: 264px;
                     height: 40px;
                     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);                  
                   background-color: #2e2f42;
-                  margin-right: 29px;
+                 
                   align-self: self-start;
                 background-color: transparent;
                 padding-left: 16px;
@@ -586,7 +584,7 @@ p.subscribe{
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 16px;
+      
         border-radius: 4px;
             padding: 8px 24px;
             height: 40px;
@@ -686,22 +684,18 @@ top: 50%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 72px;
+   
     margin-bottom: 16px;
 }
 
-.modal-form{
-    display: flex;
-}
 
 .form-user, .form-user-fourth {
-    display: flex;
+   
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         gap: 8px;
-        margin-left: 24px;
-        margin-top: 16px;
+     
         margin-bottom:8px;
 }
 .form-user-fourth {
