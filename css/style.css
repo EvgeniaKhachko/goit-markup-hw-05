@@ -740,8 +740,8 @@ border: 1px solid #4d5ae5;
         fill: #2e2f42;
 }
 
-.modal-input:hover + .modal-svg {
-    fill: #4d5ae5;
+.modal-input:hover + .modal-svg, .modal-input:focus + .modal-svg {
+    fill: #4D5AE5;
 }
 
 .modal-label {
