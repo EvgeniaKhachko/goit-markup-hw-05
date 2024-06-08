@@ -541,11 +541,12 @@ margin-left: 80px;
 
 }
 .subscribe p{
-    font: 500; 
+    font-weight: 500;
     font-size: 16px ;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 .icon-send-bt {display: flex;
     align-items: center;
@@ -556,6 +557,7 @@ margin-left: 80px;
 }
 .email-bg{
     display: flex;
+        gap: 24px;
 }
   
 .input-email{
@@ -573,6 +575,8 @@ margin-left: 80px;
                   background-color: #2e2f42;
                   margin-right: 29px;
                   align-self: self-start;
+                background-color: transparent;
+                padding-left: 16px;
        }
        .input-email::placeholder{
         color: #fff;
@@ -585,16 +589,26 @@ margin-left: 80px;
         gap: 16px;
         border-radius: 4px;
             padding: 8px 24px;
-            width: 165px;
             height: 40px;
             background: #4d5ae5;
             margin-top: auto;
+            min-width: 165px;
+            font-weight: 500;
+            line-height: 1.5 ;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+            border: none;
 }
 .button-subscribe:hover, .button-subscribe:focus{
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-icon-send{
     fill: #fff;
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+
 }
 /*   Modal   */
 .backdrop {
