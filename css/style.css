@@ -547,6 +547,13 @@ margin-left: 80px;
     letter-spacing: 0.02em;
     color: #fff;
 }
+.icon-send-bt {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+
+}
 .email-bg{
     display: flex;
 }
