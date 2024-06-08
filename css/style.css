@@ -807,6 +807,10 @@ textarea.modal-input {
 border: none;
 fill: #F4F4FD;
 }
+
+.span-check:checked {
+    background-color: #404bbf;
+}
 .check-svg {
     border-radius: 2px;
     fill: #f4f4fd;;
