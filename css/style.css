@@ -806,6 +806,7 @@ textarea.modal-input {
 .checkbox-policy:checked + .checkbox-accept span {
 border: none;
 fill: #F4F4FD;
+background-color: #404bbf;
 }
 
 .span-check:checked {
